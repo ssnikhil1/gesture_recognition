@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
 from sklearn.metrics import pairwise
+
 bg=None 
 accumulated_weight=0.5 
 roi_top=20
@@ -88,8 +89,3 @@ while True:
 cam.release()        
 cv2.destroyAllWindows()            
 
-
-
-
-
-    
